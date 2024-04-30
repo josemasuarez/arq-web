@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    display: inline-block;
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.content {
+    display: inline-block;
+    width: 75%;
+    padding: 10px;
+}
+
+.bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.red-text {
+    color: red
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.orange-strong {
+    color: orangered;
+    font-weight: bolder;
+}
+
+.highligthed {
+    background-color: yellow;
+}
+
+.link-highlight {
+    color: blue; 
+    text-decoration: underline;
+}
